@@ -1,0 +1,21 @@
+[package]
+name = "barrows_calc"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.5.0"
+textplots = "0.8.6"
+clap = "2.25.0"
+average = { version = "0.15.1", features=["std"] }
+cfgrammar = "0.13"
+lrlex = "0.13"
+lrpar = "0.13"
+
+[build-dependencies]
+cfgrammar = "0.13"
+lrlex = "0.13"
+lrpar = "0.13"
+
